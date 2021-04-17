@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "keywords": [],
+  "author": "irisipep",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "start": "npx webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.2",
+    "file-loader": "^6.2.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
